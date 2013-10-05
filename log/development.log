@@ -2378,3 +2378,325 @@ LoadError (cannot load such file -- /Users/Cam/Desktop/klopy/config/routes.rb):
   Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
   Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
   Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-05 16:32:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mClipping Load (0.1ms)[0m  SELECT "clippings".* FROM "clippings"
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 212ms (Views: 141.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/api.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:45 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/api.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+Processing by HomeController#index as HTML
+  [1m[36mClipping Load (0.2ms)[0m  [1mSELECT "clippings".* FROM "clippings"[0m
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/api.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/api.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-05 16:32:48 -0700
+
+
+Started GET "/api/create.json?content=yo" for 127.0.0.1 at 2013-10-05 16:32:50 -0700
+Processing by ApiController#create as JSON
+  Parameters: {"content"=>"yo"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "clippings" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "yo"], ["created_at", Sat, 05 Oct 2013 23:32:50 UTC +00:00], ["updated_at", Sat, 05 Oct 2013 23:32:50 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mClipping Load (0.2ms)[0m  [1mSELECT "clippings".* FROM "clippings"[0m
+Completed 200 OK in 14ms (Views: 1.6ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/api/all" for 127.0.0.1 at 2013-10-05 16:32:52 -0700
+Processing by ApiController#all as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/api_controller.rb:4:in `all'
+
+
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.2ms)
+
+
+Started GET "/api/all,json" for 127.0.0.1 at 2013-10-05 16:32:58 -0700
+
+ActionController::RoutingError (No route matches [GET] "/api/all,json"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.0) lib/thin/connection.rb:82:in `block in pre_process'
+  thin (1.6.0) lib/thin/connection.rb:80:in `catch'
+  thin (1.6.0) lib/thin/connection.rb:80:in `pre_process'
+  thin (1.6.0) lib/thin/connection.rb:55:in `process'
+  faye-websocket (0.7.0) lib/faye/adapters/thin.rb:40:in `process'
+  thin (1.6.0) lib/thin/connection.rb:41:in `receive_data'
+  faye-websocket (0.7.0) lib/faye/adapters/thin.rb:44:in `receive_data'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.3) lib/eventmachine.rb:187:in `run'
+  thin (1.6.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.0) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.0) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.0) lib/rails/commands.rb:78:in `block in <top (required)>'
+  railties (4.0.0) lib/rails/commands.rb:73:in `tap'
+  railties (4.0.0) lib/rails/commands.rb:73:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.6ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.1ms)
+
+
+Started GET "/api/all.json" for 127.0.0.1 at 2013-10-05 16:33:01 -0700
+Processing by ApiController#all as JSON
+  [1m[35mClipping Load (0.2ms)[0m  SELECT "clippings".* FROM "clippings"
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/all.json" for 127.0.0.1 at 2013-10-05 16:33:01 -0700
+Processing by ApiController#all as JSON
+  [1m[36mClipping Load (0.3ms)[0m  [1mSELECT "clippings".* FROM "clippings"[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+Processing by HomeController#index as HTML
+  [1m[35mClipping Load (0.2ms)[0m  SELECT "clippings".* FROM "clippings"
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/api.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/api.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:07 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+Processing by HomeController#index as HTML
+  [1m[36mClipping Load (0.2ms)[0m  [1mSELECT "clippings".* FROM "clippings"[0m
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/api.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/api.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/event.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/channel.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/websocket_rails/main.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+
+
+Started GET "/api/all" for 127.0.0.1 at 2013-10-05 16:33:11 -0700
+Processing by ApiController#all as HTML
+Completed 406 Not Acceptable in 1ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/api_controller.rb:4:in `all'
+
+
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Cam/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/api/all" for 127.0.0.1 at 2013-10-05 16:33:33 -0700
+Processing by ApiController#all as HTML
+  [1m[35mClipping Load (0.1ms)[0m  SELECT "clippings".* FROM "clippings"
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/all.json" for 127.0.0.1 at 2013-10-05 16:33:36 -0700
+Processing by ApiController#all as JSON
+  [1m[36mClipping Load (0.3ms)[0m  [1mSELECT "clippings".* FROM "clippings"[0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)

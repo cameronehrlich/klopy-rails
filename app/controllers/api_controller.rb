@@ -2,6 +2,7 @@ class ApiController < ApplicationController
 	def all
 		@clippings = Clipping.all
 		respond_to do |format|
+			format.html { render json: @clippings }
 			format.json { render json: @clippings }
 		end
 	end
