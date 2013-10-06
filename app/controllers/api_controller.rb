@@ -13,7 +13,7 @@ class ApiController < ApplicationController
 			clipping.save!			
 		end
 
-		@clippings = Clipping.all
+		@clippings = Clipping.all.order(:id).reverse_order
 		respond_to do |format|
 			format.html { render json: @clippings }
 			format.json { render json: @clippings }
