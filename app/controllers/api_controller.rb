@@ -10,7 +10,7 @@ class ApiController < ApplicationController
 	def create
 		unless params[:content].nil?
 			clipping = Clipping.create(:content => params[:content])
-			clipping.save!			
+			clipping.save		
 		end
 
 		@clippings = Clipping.all.order(:id).reverse_order
