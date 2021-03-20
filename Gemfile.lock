@@ -35,6 +35,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    concurrent-ruby (1.1.8)
     daemons (1.1.9)
     em-synchrony (1.0.3)
       eventmachine (>= 1.0.0.beta.1)
@@ -46,7 +47,8 @@ GEM
       websocket-driver (>= 0.3.0)
     hike (1.2.3)
     hiredis (0.4.5)
-    i18n (0.6.5)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (1.5.1)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
